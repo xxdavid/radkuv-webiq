@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html>
+  {% include head.html %}
+  
+  
+  <body>
+      <div id="vsechno"> 
+       <div id="leftbar">
+          <!--<div class="center">-->
+            <!--<div class="jestevicecenter">-->
+                <div id="home"><a href="/" > <img src="/pics/beznazvu.png" width="25%" height="25%">
+                </a>
+          </div>  
+        </div>
+          <div id="rightbar">
+              <!--<div class="center">-->
+                  <!--<div class="jestevicecenter">-->
+              <nav>
+                  {% for category in site.categories %}
+                      {% unless category contains "nezarazeno" %}
+                        <div class="tlac navig"><a href="/{{category | first | replace: " ", "-" }}">{{ category | first | capitalize_all | replace:" ","&nbsp;"}}</a></div>
+                      {% endunless %}
+                  {% endfor %}
+              </nav>
+
+          </div>
+        {{ content }}
+      </div>
+  </body>
+
+</html>
