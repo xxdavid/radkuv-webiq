@@ -5,27 +5,21 @@
   
 <body>
   <div id="vsechno">
-   <div id="leftbar">
-      <!--<div class="center">-->
-        <!--<div class="jestevicecenter">-->
-       <div id="home"><a href="/" > <img src="/pics/beznazvu.png" width="25%" height="25%"></a></div>
+    <div id="leftbar">
+       <div id="home"><a href="/" > <img src="/pics/home.png" alt="U klavíru" width="25%" height="25%"></a></div>
     </div>
     <div id="rightbar">
-          <!--<div class="center">-->
-              <!--<div class="jestevicecenter">-->
-          <div id="atNav">
-              <nav>
-                  {% for category in site.categories %}
-                      {% unless category contains "nezarazeno" %}
-                        <div class="tlac navig"><a href="/{{category | first | replace: " ", "-" }}">{{ category | first | capitalize_all | replace:" ","&nbsp;"}}</a></div>
-                      {% endunless %}
-                  {% endfor %}
-              </nav>
-          </div>
-
-      </div>
+        <div id="atNav">
+            <nav>
+                {% for category in site.categories %}
+                  {% unless category contains "nezarazeno" %}
+                    <div class="navigTlacitko"><a href="/{{category | first | replace: " ", "-" }}">{{ category | first | capitalize_all | replace:" ","&nbsp;"}}</a></div>
+                  {% endunless %}
+                {% endfor %}
+            </nav>
+        </div>
+    </div>
     {{ content }}
   </div>
 </body>
-
 </html>
