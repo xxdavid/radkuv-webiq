@@ -34,7 +34,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v1.2.4, ruby-2.1.5-p273) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="liquid (v2.6.2, ruby-2.1.5-p273) [gem]" level="application" />
   </component>
 </module>

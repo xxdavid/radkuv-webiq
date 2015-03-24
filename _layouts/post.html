@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="atPost">
     <article>
-        <p class="datum"> <a href="/{{page.categories | first | replace: " ", "-" }}">{{ page.categories | first | capitalize_all}}</a> | {{ page.date | date: "%-d. %-m. %Y"  }} </p>
+        <p class="datum"> <a href="{{site.baseurl}}/{{page.categories | first | replace: " ", "-" }}">{{ page.categories | first | capitalize_all}}</a> | {{ page.date | date: "%-d. %-m. %Y"  }} </p>
         <h2>{% if page.author %}{{ page.author}}{{" — "}}{% endif %}{{page.title }}</h2>
         {{ content }}
         <div id="disqus_thread">

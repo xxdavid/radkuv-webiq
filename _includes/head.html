@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.author %}{{ page.author}} &ndash; {{ page.title}}{% else if page.title %}{{ page.title }}{% else if page.category %}{{ page.category }}{% else %}{{ "nějaký ten titulek" }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="icon" href="{{ '/favicon.ico' | prepend: '/pics' }}">
+    <!--<link rel="icon" href="{{ 'pics/favicon.ico' | prepend: site.baseurl }}">-->
+    <link rel="icon" href="{{site.baseurl}}/pics/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/css/css.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

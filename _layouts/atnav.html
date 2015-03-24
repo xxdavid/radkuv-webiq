@@ -6,14 +6,14 @@
 <body>
   <div id="vsechno">
     <div id="leftbar">
-       <div id="home"><a href="/" > <img src="/pics/home.png" alt="U klavíru" width="25%" height="25%"></a></div>
+       <div id="home"><a href="{{site.baseurl}}/" > <img src="{{site.baseurl}}/pics/home.png" alt="U klavíru" width="25%" height="25%"></a></div>
     </div>
     <div id="rightbar">
         <div id="atNav">
             <nav>
                 {% for category in site.categories %}
                   {% unless category contains "nezarazeno" %}
-                    <div class="navigTlacitko"><a href="/{{category | first | replace: " ", "-" }}">{{ category | first | capitalize_all | replace:" ","&nbsp;"}}</a></div>
+                    <div class="navigTlacitko"><a href="{{site.baseurl}}/{{category | first | replace: " ", "-" }}">{{ category | first | capitalize_all | replace:" ","&nbsp;"}}</a></div>
                   {% endunless %}
                 {% endfor %}
             </nav>
