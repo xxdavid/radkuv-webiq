@@ -1,18 +1,63 @@
----
-layout: athome
----
-<div id="content">
-    {% for post in paginator.posts %}
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description" content="Můj, zatím nedokončený, hudební webík.
+">
+    <link rel="icon" href="/pics/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/css.css">
+    <link rel="canonical" href="/">
+  <!--<link rel="alternate" type="application/rss+xml" title="Muj hudebni webik" href="/feed.xml" />-->
+</head>
+
+<body>
+    <div id="atHome">
+      <div id="vsechno">
+       <div id="leftbar">
+                <div id="home"><a href="/" > <img src="/pics/home.png" alt="U klavíru" width="25%" height="25%">
+                </a>
+          </div>
+        </div>
+          <div id="rightbar">
+              <nav>
+                  
+                      
+                        <div class="navigTlacitko"><a href="/pro-davida">Pro&nbsp;Davida</a></div>
+                      
+                  
+              </nav>
+          </div>
+        <div id="content">
+    
         <article>
-            <p class="datum"> {% unless post.categories contains "nezarazeno" %}<a href="/{{post.categories | first | replace: " ", "-" }}">  {{post.categories | first | capitalize_all}}</a> | {% endunless %}{{ post.date | date: "%-d. %-m. %Y"  }} </p>
+            <p class="datum"> <a href="/pro-davida">  Pro Davida</a> | 8. 3. 2015 </p>
 
-            <h2><a href="{{ post.url }}">{% if post.author %}{{ post.author }}{{" — "}}{% endif %}{{ post.title }} </a></h2>
-          {{ post.content | truncate: 300, "…"}}
+            <h2><a href="/pro-davida/posticek-pro-tebe">Postík pro Dejvise </a></h2>
+          <p>Postík určen jen a jen pro <a href="http://blog.dpavlik.cz">tebe</a> :*</p>
+
         </article>
-     {% endfor %}
+     
 
-    <!--{% include paginate.html %}-->
+    <!--<div class="center">
+<div id="paginating">
+    
+    <span class="page current">1</span>
+    
+</div>
+</div>
+-->
 
-    <!--{% include footer.html %}-->
+    <!--<div class="center patice"><footer> Powered by <a href="http://www.jekyllrb.com" target="_blank">Jekyll</a></footer></div>
+-->
 </div>
 
+
+      </div>
+    </div>
+</body>
+
+</html>
