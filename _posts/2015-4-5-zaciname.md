@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "#začínáme"
+date:   2015-4-5 22:30
+category: 'nezarazeno'
+---
+
+<p>Ze všeho nejdříve bych chtěl poděkovat <a href="http://blog.dpavlik.cz" target="_blank">Davidovi</a> za jeho pomoc s&nbsp;tímto webíkem. Vlastně hned, jak jsem ti řekl o&nbsp;svém plánu, ses mi dobrovolně nabídl a&nbsp;od té doby mi až doposud pomáhal (především prokousávat se přes toho úžasného <a href="http://jekyllrb.com" target="blank">Jekyll</a>a :D). A&nbsp;za to jsem ti vážně hodně vděčný. Takže ještě jednou&nbsp;—&nbsp;díky.</p>
+<p>Až dnes jsem se konečně snad po dvou měsících dokopal k&nbsp;napsání tohoto úvodu, jehož absence mi jaksi bránila sem cokoliv postovat. Co bych tak řekl <span class="chcuKurzivu">(*napsal)</span>?</p>
+<p>Mělo by to tu sloužit (z&nbsp;mého úhlu pohledu) pro archivování skladeb, které momentálně hraji na klavír, pro motivaci hrát a&nbsp;zlepšovat se, pro sledování svého pokroku či regrese. Už jen to, že jsem se začal nahrávat a&nbsp;poslouchat, mě za velmi krátkou dobu stihlo posunout o&nbsp;kus dál.</p>
+<p>Posledních pár dní jsem strávil hledáním nějakého kvalitního VSTi piana. (VSTi je jakýsi soubor zvuků určitého hudebního nástroje (či všelijakých jiných pazvuků), které se aplikují na .midi soubor a&nbsp;ve&nbsp;výsledku by to mělo vyplivnout finální, poslouchatelnou třeba .mp3.) Problém je, že ty, co jsou zdarma, mají zvuk velmi nekvalitní a&nbsp;instalují do&nbsp;počítače spoustu jiných fujtajblů. A&nbsp;naopak ty, co jsou placené, jsou sice kvalitou úplně na jiné úrovni, ale stojí v&nbsp;průměru něco nad tisícikorunu. Což je hodně. Po dvou večerech strávených googlením a&nbsp;testováním jsem to vzdal a&nbsp;nainstaloval si trial (na 14&nbsp;dní) <a href="http://www.acoustica.com/pianissimo/" target="_blank">Pianissima</a>, jehož zvuk je přímo libový. Ale těch peněz… Takže tak jedna dvě skladby budou pěkně kvalitní a&nbsp;všechno ostatní už tu bude znít hrozně. Kdyby někdo o&nbsp;nějakém kvalitním VSTi věděl, byl bych vděčný za info.</p>
+<p>Stále pár věcí na tomto webu furt nefunguje, jak bych chtěl, ale spravit většinu z&nbsp;nich už prostě není v&nbsp;mých silách. Naštěstí jsou to už jen drobnosti. A&nbsp;taky spoustu věcí nechápu. Třeba proč se mi moje .mp3 soubory načtou v&nbsp;Chromu jen nanejvýš do&nbsp;půlky a&nbsp;pak odmítají hrát? Kdyby to náhodou přetrvávalo i&nbsp;po uploadu, tak by mohlo pomoct vyměnit prohlížeč (třeba ve Firefoxu to celkem frčí).</p>
+<p>Jsem celkem zvědav, jak to tu dopadne, kdy mě to přestane bavit či jak moc to tu rozjedu. Z vlastních zkušeností vím, že ať si budoucnost představuji jak dlouho chci, stejně je nakonec všechno úplně jinak. Tak uvidíme.</p>
+<p>V případě, že sem již zítra čirou náhodou někdo zavítá, tak jedné půlce z&nbsp;vás přeji co nejméně čokoládových vajíček a&nbsp;zajíců, abyste pak nebyli tlustí, a&nbsp;té druhé půlce co nejvíce originálních básniček, abyste furt nemusely poslouchat tu jednu a&nbsp;tu stejnou dokola.</p>
+<p>Tím bych ukončil svůj první (a&nbsp;nejspíš poslední) psavý článek. Přeji příjemný poslech.</p>
+<p>Jo a&nbsp;mobily pryč od tohoto webu!</p>

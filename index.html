@@ -8,7 +8,7 @@ title: Muj hudební webík
             <p class="datum"> {% unless post.categories contains "nezarazeno" %}<a href="/{{post.categories | first | replace: " ", "-" }}">  {{post.categories | first | capitalize_all}}</a> | {% endunless %}{{ post.date | date: "%-d. %-m. %Y"  }} </p>
 
             <h2><a href="{{ post.url }}">{% if post.author %}{{ post.author }}{{" — "}}{% endif %}{{ post.title }} </a></h2>
-          {{ post.content | truncate: 300, "…"}}
+          {{ post.content }}
         </article>
      {% endfor %}
 

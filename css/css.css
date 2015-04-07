@@ -8,7 +8,7 @@ html{
     min-height:100%;
 }
 body{
-    font-family: 'pt sans', arial, serif;
+    font-family: 'PT sans', arial, serif;
     padding:30px;
     background-image: -webkit-linear-gradient(#555555, #999999);
     background-image:      -o-linear-gradient(#555555, #999999);
@@ -39,10 +39,10 @@ footer{
     bottom:10px;
 }
 a{
-    color:#004400;
+    color:#005500;
 }
 a:hover{
-    color:#008800;
+    color:#009000;
 }
 h1{
     text-align:center;
@@ -174,7 +174,7 @@ article:last-child{
     font-style:italic;
 }
 article p{
-    font-size:1.2em;
+    font-size:17px;
     text-indent:1em;
     text-align:justify;
     margin-top:10px;
@@ -243,4 +243,7 @@ nav:hover, #home img:hover, #atHome #home img, #atNav nav{
     box-shadow: 0 0 20px 5px #333333;
     -webkit-transform:scale(1.05);
     transform:scale(1.05);
+}
+.chcuKurzivu{
+    font-style:italic;
 }
