@@ -8,8 +8,7 @@ author: Yiruma
 
 <div class="nahravka">
    <audio controls="controls" preload="auto">
-        <source src="\..\..\audio\River Flows In You.mp3" type="audio/mpeg"/>
-        <source src="\..\..\audio\River Flows In You.ogg" type="audio/ogg"/>
+        <source src="../../audio/RiverFlowsInYou.mp3" type="audio/mpeg"/>
+        <source src="../../audio/RiverFlowsInYou.ogg" type="audio/ogg"/>
    </audio>
-  </ul> 
 </div>
